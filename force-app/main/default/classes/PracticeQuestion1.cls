@@ -5,6 +5,7 @@ public class PracticeQuestion1 {
         for(Account acc: Accli){
             acc.Test_Rating__c = 'Test2';
             acc.name = 'Test12';
+            acc.Active__c = 'Yes';
         }
     } 
 }
